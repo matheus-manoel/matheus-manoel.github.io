@@ -1,0 +1,256 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* horizontal line */
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(127,140,141, 0), rgba(127,140,141, 0.75), rgba(127,140,141, 0));
+}
+
+/* ----------------- */
+
+/* navbar */
+
+.navbar {
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent;
+  font-size: 20px;
+  margin-bottom: 90px;
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+.navbar li { color: #000 } 
+
+/* ---------------- */
+
+.jumbotron {
+  background-color: #ECF0F1;
+  height: 70%;
+  padding: 30px;
+}
+
+.jumbotron p {
+  font-size: 30px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.jumbotron .btn {
+  padding-left: 2px;
+  padding-right: 2px;
+  margin-top: -5px;
+  font-size: 30px;
+}
+
+.btn.sharp {
+  border-radius:0;
+}
+
+/* software developer button */
+
+.btn-software-developer { 
+  color: #FFFFFF; 
+  background-color: #19B5FE; 
+  border-color: #19B5FE; 
+} 
+ 
+.btn-software-developer:hover, 
+.btn-software-developer:focus, 
+.btn-software-developer:active, 
+.btn-software-developer.active, 
+.open .dropdown-toggle.btn-software-developer { 
+  color: #FFFFFF; 
+  background-color: #22A7F0; 
+  border-color: #19B5FE; 
+} 
+ 
+.btn-software-developer:active, 
+.btn-software-developer.active, 
+.open .dropdown-toggle.btn-software-developer { 
+  background-image: none; 
+} 
+ 
+.btn-software-developer.disabled, 
+.btn-software-developer[disabled], 
+fieldset[disabled] .btn-software-developer, 
+.btn-software-developer.disabled:hover, 
+.btn-software-developer[disabled]:hover, 
+fieldset[disabled] .btn-software-developer:hover, 
+.btn-software-developer.disabled:focus, 
+.btn-software-developer[disabled]:focus, 
+fieldset[disabled] .btn-software-developer:focus, 
+.btn-software-developer.disabled:active, 
+.btn-software-developer[disabled]:active, 
+fieldset[disabled] .btn-software-developer:active, 
+.btn-software-developer.disabled.active, 
+.btn-software-developer[disabled].active, 
+fieldset[disabled] .btn-software-developer.active { 
+  background-color: #19B5FE; 
+  border-color: #19B5FE; 
+} 
+ 
+.btn-software-developer .badge { 
+  color: #19B5FE; 
+  background-color: #FFFFFF; 
+}
+
+/*-------------*/
+
+/* problem solver button */
+
+.btn-problem-solver { 
+  color: #FFFFFF; 
+  background-color: #39D179; 
+  border-color: #39D179; 
+} 
+ 
+.btn-problem-solver:hover, 
+.btn-problem-solver:focus, 
+.btn-problem-solver:active, 
+.btn-problem-solver.active, 
+.open .dropdown-toggle.btn-problem-solver { 
+  color: #FFFFFF; 
+  background-color: #2CC36B; 
+  border-color: #39D179; 
+} 
+ 
+.btn-problem-solver:active, 
+.btn-problem-solver.active, 
+.open .dropdown-toggle.btn-problem-solver { 
+  background-image: none; 
+} 
+ 
+.btn-problem-solver.disabled, 
+.btn-problem-solver[disabled], 
+fieldset[disabled] .btn-problem-solver, 
+.btn-problem-solver.disabled:hover, 
+.btn-problem-solver[disabled]:hover, 
+fieldset[disabled] .btn-problem-solver:hover, 
+.btn-problem-solver.disabled:focus, 
+.btn-problem-solver[disabled]:focus, 
+fieldset[disabled] .btn-problem-solver:focus, 
+.btn-problem-solver.disabled:active, 
+.btn-problem-solver[disabled]:active, 
+fieldset[disabled] .btn-problem-solver:active, 
+.btn-problem-solver.disabled.active, 
+.btn-problem-solver[disabled].active, 
+fieldset[disabled] .btn-problem-solver.active { 
+  background-color: #39D179; 
+  border-color: #39D179; 
+} 
+ 
+.btn-problem-solver .badge { 
+  color: #39D179; 
+  background-color: #FFFFFF; 
+}
+
+/*--------------------------*/
+
+/* creative thinker */
+
+.btn-creative-thinker { 
+  color: #FFFFFF; 
+  background-color: #F9690E; 
+  border-color: #F9690E; 
+} 
+ 
+.btn-creative-thinker:hover, 
+.btn-creative-thinker:focus, 
+.btn-creative-thinker:active, 
+.btn-creative-thinker.active, 
+.open .dropdown-toggle.btn-creative-thinker { 
+  color: #FFFFFF; 
+  background-color: #F2792E; 
+  border-color: #F9690E; 
+} 
+ 
+.btn-creative-thinker:active, 
+.btn-creative-thinker.active, 
+.open .dropdown-toggle.btn-creative-thinker { 
+  background-image: none; 
+} 
+ 
+.btn-creative-thinker.disabled, 
+.btn-creative-thinker[disabled], 
+fieldset[disabled] .btn-creative-thinker, 
+.btn-creative-thinker.disabled:hover, 
+.btn-creative-thinker[disabled]:hover, 
+fieldset[disabled] .btn-creative-thinker:hover, 
+.btn-creative-thinker.disabled:focus, 
+.btn-creative-thinker[disabled]:focus, 
+fieldset[disabled] .btn-creative-thinker:focus, 
+.btn-creative-thinker.disabled:active, 
+.btn-creative-thinker[disabled]:active, 
+fieldset[disabled] .btn-creative-thinker:active, 
+.btn-creative-thinker.disabled.active, 
+.btn-creative-thinker[disabled].active, 
+fieldset[disabled] .btn-creative-thinker.active { 
+  background-color: #F9690E; 
+  border-color: #F9690E; 
+} 
+ 
+.btn-creative-thinker .badge { 
+  color: #F9690E; 
+  background-color: #FFFFFF; 
+}
+
+/*---------------------------------*/
+
+/* esports fan button */
+
+.btn-esports-fan { 
+  color: #FFFFFF; 
+  background-color: #F1C40F; 
+  border-color: #F1C40F; 
+} 
+ 
+.btn-esports-fan:hover, 
+.btn-esports-fan:focus, 
+.btn-esports-fan:active, 
+.btn-esports-fan.active, 
+.open .dropdown-toggle.btn-esports-fan { 
+  color: #FFFFFF; 
+  background-color: #EDC111; 
+  border-color: #F1C40F; 
+} 
+ 
+.btn-esports-fan:active, 
+.btn-esports-fan.active, 
+.open .dropdown-toggle.btn-esports-fan { 
+  background-image: none; 
+} 
+ 
+.btn-esports-fan.disabled, 
+.btn-esports-fan[disabled], 
+fieldset[disabled] .btn-esports-fan, 
+.btn-esports-fan.disabled:hover, 
+.btn-esports-fan[disabled]:hover, 
+fieldset[disabled] .btn-esports-fan:hover, 
+.btn-esports-fan.disabled:focus, 
+.btn-esports-fan[disabled]:focus, 
+fieldset[disabled] .btn-esports-fan:focus, 
+.btn-esports-fan.disabled:active, 
+.btn-esports-fan[disabled]:active, 
+fieldset[disabled] .btn-esports-fan:active, 
+.btn-esports-fan.disabled.active, 
+.btn-esports-fan[disabled].active, 
+fieldset[disabled] .btn-esports-fan.active { 
+  background-color: #F1C40F; 
+  border-color: #F1C40F; 
+} 
+ 
+.btn-esports-fan .badge { 
+  color: #F1C40F; 
+  background-color: #FFFFFF; 
+}
+
+/* ---------------------- */
