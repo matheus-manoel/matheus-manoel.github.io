@@ -31,7 +31,13 @@ hr.style-two {
   font-size: 30px;
 }
 
-.navbar li { color: #000 } 
+.navbar li a, .navbar .navbar-brand {
+    color: #333333 !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a, .navbar-brand b:hover {
+    color: #BDC3C7 !important;
+}
 
 /* ---------------- */
 
