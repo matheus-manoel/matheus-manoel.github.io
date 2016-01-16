@@ -29,7 +29,7 @@
 
   </head>
 
-  <body>
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
     
     <!-- Header, including navar -->
 
@@ -47,18 +47,19 @@
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
               <li><a href="#about">about</a></li>
-              <li><a href="#services">projects</a></li>
-              <li><a href="#pricing">now</a></li>
+              <li><a href="#projects">projects</a></li>
+              <li><a href="#now">now</a></li>
               <li><a href="#contact">contact</a></li>
-              <li><a href="#portfolio">blog</a></li>
+              <li><a href="#">blog</a></li>
             </ul>
           </div>
         </div>
       </nav>
 
-    
-      <p>I'm a Brazillian <button type="button" class="btn btn-software-developer btn-lg sharp">software developer</button>, <button type="button" class="btn btn-problem-solver btn-lg sharp">problem solver</button> and <button type="button" class="btn btn-creative-thinker btn-lg sharp">creative thinker</button>.</p>
-      <p>I also like <button type="button" class="btn btn-esports-fan btn-lg sharp">eSports</button>.</p>
+      <div id="about">
+        <p>I'm a Brazillian <button type="button" class="btn btn-software-developer btn-lg sharp">software developer</button>, <button type="button" class="btn btn-problem-solver btn-lg sharp">problem solver</button> and <button type="button" class="btn btn-creative-thinker btn-lg sharp">creative thinker</button>.</p>
+        <p>I also like <button type="button" class="btn btn-esports-fan btn-lg sharp">eSports</button>.</p>
+      </div>
       
       <div class="social-icons-wrapper">
         <ul>
@@ -72,7 +73,7 @@
 
     <!-- Projects container fluid -->
 
-    <div class="container-fluid bg-gray">
+    <div class="container-fluid bg-gray" id="projects">
       <hr class="style-two"/>
       
       <h1 class="section-title" align="center">projects</h1>
@@ -116,9 +117,9 @@
 
     </div>
 
-    <!-- Projects container fluid -->
+    <!-- Now container fluid -->
     
-    <div class="container-fluid bg-gray">
+    <div class="container-fluid bg-gray" id="now">
       <hr class="style-two"/>
       
       <h1 class="section-title" align="center">now</h1>
@@ -151,5 +152,31 @@
 
 
   </body>
+  
+  <!-- Smooth Scrolling -->
+
+  <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links in navbar + footer link
+      $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+        });
+      });
+    })
+  </script>
 
 </html>
