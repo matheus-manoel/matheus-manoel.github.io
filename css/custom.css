@@ -1,9 +1,43 @@
 body {
   font-family: 'Quicksand', sans-serif;
+  font-size: 15px;
 }
 
 .bg-gray {
   background-color: #ECF0F1;
+}
+
+.container-fluid {
+  padding: 60px 70px;
+}
+
+.section-title {
+  margin-bottom: 30px;
+}
+
+.jumbotron {
+  height: 70%;
+  padding: 30px;
+  margin: 0;
+}
+
+.jumbotron p {
+  font-size: 30px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.jumbotron .btn {
+  padding-left: 2px;
+  padding-right: 2px;
+  margin-top: -5px;
+  font-size: 30px;
+}
+
+.btn.sharp {
+  border-radius:0;
 }
 
 /* horizontal line */
@@ -40,35 +74,6 @@ hr.style-two {
 }
 
 /* ---------------- */
-
-.container-fluid {
-  padding: 30px;
-}
-
-.jumbotron {
-  height: 70%;
-  padding: 30px;
-  margin: 0;
-}
-
-.jumbotron p {
-  font-size: 30px;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.jumbotron .btn {
-  padding-left: 2px;
-  padding-right: 2px;
-  margin-top: -5px;
-  font-size: 30px;
-}
-
-.btn.sharp {
-  border-radius:0;
-}
 
 /* software developer button */
 
@@ -418,10 +423,6 @@ fieldset[disabled] .btn-esports-fan.active {
 
 /* projects */
 
-.thumbnails-wrapper {
-  margin-top: 30px;
-}
-
 .thumbnail {
   padding: 15px;
   border: none;
@@ -449,3 +450,12 @@ fieldset[disabled] .btn-esports-fan.active {
 }
 
 /* --------------- */
+
+/* now */
+
+#me {
+  height: 70%;
+  width: 70%;
+}
+
+/* ---- */
