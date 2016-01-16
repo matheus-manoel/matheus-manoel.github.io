@@ -459,3 +459,25 @@ fieldset[disabled] .btn-esports-fan.active {
 }
 
 /* ---- */
+
+/* tooltips */
+
+.btn-software-developer + .tooltip > .tooltip-inner {
+  background-color: #19B5FE;
+}
+.btn-software-developer + .tooltip > .tooltip-arrow {
+  border-top-color: #19B5FE;
+}
+
+/*.btn-esports-fan + .tooltip > .tooltip-inner {
+  background-color: #F1C40F;
+}
+.btn-esports-fan + .tooltip > .tooltip-arrow {
+  border-top-color: #F1C40F;
+}
+
+.btn-esports-fan + .tooltip.right > .tooltip-arrow {background-color: #F1C40F;}
+*/
+
+
+/* tooltips */

@@ -57,7 +57,7 @@
       </nav>
 
       <div id="about">
-        <p>I'm a Brazillian <button type="button" class="btn btn-software-developer btn-lg sharp">software developer</button>, <button type="button" class="btn btn-problem-solver btn-lg sharp">problem solver</button> and <button type="button" class="btn btn-creative-thinker btn-lg sharp">creative thinker</button>.</p>
+        <p>I'm a Brazillian <button type="button" class="btn btn-software-developer btn-lg sharp" data-toggle="tooltip" title="C, Java, Ruby on Rails, Python, HTML5, CSS3, Javascript, Bootstrap">software developer</button>, <button type="button" class="btn btn-problem-solver btn-lg sharp">problem solver</button> and <button type="button" class="btn btn-creative-thinker btn-lg sharp">creative thinker</button>.</p>
         <p>I also like <button type="button" class="btn btn-esports-fan btn-lg sharp">eSports</button>.</p>
       </div>
       
@@ -139,6 +139,7 @@
             <li>developing a social network for polyphasic sleepers with ruby on rails;</li>
             <li>reading "The State and Revolution", by Vladimir Lenin;</li>
             <li>developing a personal blog with ruby on rails;</li>
+            <li>studying forex trading;</li>
           </ul>
 
           
@@ -208,6 +209,14 @@
         });
       });
     })
+  </script>
+  
+  <!-- Tooltips -->
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();   
+    });
   </script>
 
 </html>
