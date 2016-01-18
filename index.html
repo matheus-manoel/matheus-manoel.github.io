@@ -43,7 +43,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="/"><b>matheus manoel</b></a>
+              <a class="navbar-brand" href="#myPage"><b>matheus manoel</b></a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
               <ul class="nav navbar-nav navbar-right">
@@ -58,12 +58,12 @@
         </nav>
       </div>
 
-      <div id="about">
+      <div id="about" class="slide">
         <p>I'm a Brazillian <button type="button" class="btn btn-software-developer btn-lg sharp" data-toggle="tooltip" title="C, Java, Ruby on Rails, Python, HTML5, CSS3, Javascript, Bootstrap">software developer</button>, <button type="button" class="btn btn-problem-solver btn-lg sharp">problem solver</button> and <button type="button" class="btn btn-creative-thinker btn-lg sharp">creative thinker</button>.</p>
         <p>I also like <button type="button" class="btn btn-esports-fan btn-lg sharp">eSports</button>.</p>
       </div>
 
-      <div class="social-icons-wrapper">
+      <div class="social-icons-wrapper slide">
         <ul>
          <li><a href="https://www.github.com/matheus-manoel" target="_blank"><i class="fa fa-lg fa-github"></i></a></li>
          <li><a href="#"><i class="fa fa-lg fa-linkedin" target="_blank"></i></a></li>
@@ -80,7 +80,7 @@
 
       <h1 class="section-title" align="center">projects</h1>
 
-      <div class="thumbnails-wrapper">
+      <div class="thumbnails-wrapper slide">
         <div class="row text-center">
           <div class="col-sm-4">
             <div class="thumbnail">
@@ -126,7 +126,7 @@
 
       <h1 class="section-title" align="center">now</h1>
 
-      <div class="row">
+      <div class="row slideanim">
         <div class="col-sm-4 col-xs-12 text-center">
 
           <img src="images/me.jpg" class="img-circle" alt="Me" id="me">
@@ -157,7 +157,7 @@
 
       <h1 class="section-title" align="center">contact</h1>
 
-        <div class="row">
+        <div class="row slideanim">
           <div class="col-sm-5">
             <p>Contact me and I'll get back to you within 24 hours.</p>
             <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
@@ -247,6 +247,20 @@
           else {
             $('#mainnav').removeClass('navbar-fixed-top');
           }
+       });
+     });
+   </script>
+
+   <!-- Slide animation -->
+   <script>
+     $(window).scroll(function() {
+       $(".slideanim").each(function(){
+         var pos = $(this).offset().top;
+
+         var winTop = $(window).scrollTop();
+         if (pos < winTop + 600) {
+           $(this).addClass("slide");
+         }
        });
      });
    </script>
