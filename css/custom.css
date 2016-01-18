@@ -84,6 +84,7 @@ hr.style-two {
 
 .navbar-nav li a:hover, .navbar-nav li.active a, .navbar-brand b:hover {
     color: #BDC3C7 !important;
+    background-color: #ECF0F1 !important;
 }
 
 /* ---------------- */
