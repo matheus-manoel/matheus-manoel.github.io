@@ -74,6 +74,10 @@ hr.style-two {
   background: #ECF0F1;
 }
 
+.navbar-fixed-top .navbar-nav {
+  padding-right: 15px;
+}
+
 .navbar-brand {
   font-size: 30px;
 }
