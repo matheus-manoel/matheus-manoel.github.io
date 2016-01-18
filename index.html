@@ -113,10 +113,10 @@
               <p class="title"><strong>todo</strong></p>
               <a href="https://www.github.com/matheus-manoel/RunCases" target="_blank"><img src="sanfra.jpg" alt="todo"></a>
               <p class="description">todo.</p>
+            </div>
           </div>
         </div>
       </div>
-
     </div>
 
     <!-- Now container fluid -->
@@ -184,6 +184,21 @@
 
     </div>
 
+    <!-- Footer -->
+    <footer class="container-fluid bg-gray">
+      <nav>
+        <ul>
+          <li><a href="#about">about</a></li>
+          <li><a href="#projects">projects</a></li>
+          <li><a href="#now">now</a></li>
+          <li><a href="#contact">contact</a></li>
+          <li><a href="#">blog</a></li>
+        </ul>
+      </nav>
+      <small>Developed with love, by me.
+	    </small>
+    </footer>
+
 
   </body>
 
@@ -192,7 +207,7 @@
   <script>
     $(document).ready(function(){
       // Add smooth scrolling to all links in navbar + footer link
-      $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+      $("a, footer a[href='#myPage']").on('click', function(event) {
 
       // Prevent default anchor click behavior
       event.preventDefault();
