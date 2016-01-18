@@ -70,8 +70,7 @@ hr.style-two {
 }
 
 .navbar-fixed-top {
-  background-color: #ECF0F1;
-  background: #ECF0F1;
+  background-color: rgba(236, 240, 241, .8);
 }
 
 .navbar-fixed-top .navbar-nav {
@@ -88,7 +87,7 @@ hr.style-two {
 
 .navbar-nav li a:hover, .navbar-nav li.active a, .navbar-brand b:hover {
     color: #BDC3C7 !important;
-    background-color: #ECF0F1 !important;
+    background-color: transparent !important;
 }
 
 /* ---------------- */
