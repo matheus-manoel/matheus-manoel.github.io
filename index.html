@@ -59,7 +59,7 @@
      
 
       <div id="about" class="slide">
-        <p>I'm a Brazillian <button type="button" class="btn btn-software-developer btn-lg sharp" data-toggle="tooltip" title="C, Java, Ruby on Rails, Python, HTML5, CSS3, Javascript, Bootstrap">software developer</button>, <button type="button" class="btn btn-problem-solver btn-lg sharp">problem solver</button> and <button type="button" class="btn btn-creative-thinker btn-lg sharp">creative thinker</button>.</p>
+        <p>I'm a Brazillian <button type="button" class="btn btn-software-developer btn-lg sharp" data-toggle="tooltip" title="C, Java, Ruby on Rails, Python, HTML5, CSS3, Javascript, Bootstrap">software developer</button>, <button type="button" class="btn btn-problem-solver btn-lg sharp" data-toggle="tooltip" title="Member of GEMA (Study Group for Competitive Programming). Won PET Challenge 2014 and attended the Brazillian regional of ACM-ICPC in 2014.">problem solver</button> and <button type="button" class="btn btn-creative-thinker btn-lg sharp">creative thinker</button>.</p>
         <p>I also like <button type="button" class="btn btn-esports-fan btn-lg sharp">eSports</button>.</p>
       </div>
        </div>
@@ -253,9 +253,11 @@
        $(window).bind('scroll', function() {
          if ($(window).scrollTop() > navpos.top - 1) {
            $('#mainnav').addClass('navbar-fixed-top');
+           $("#about").css("padding-top", "140px")
           }
           else {
             $('#mainnav').removeClass('navbar-fixed-top');
+            $("#about").css("padding-top", "90px")
           }
        });
      });
