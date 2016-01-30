@@ -479,6 +479,13 @@ fieldset[disabled] .btn-esports-fan.active {
 
 /* tooltips */
 
+.btn-problem-solver + .tooltip > .tooltip-inner {
+  background-color: #39D179;
+}
+.btn-problem-solver + .tooltip > .tooltip-arrow {
+  border-top-color: #39D179;
+}
+
 .btn-software-developer + .tooltip > .tooltip-inner {
   background-color: #19B5FE;
 }
