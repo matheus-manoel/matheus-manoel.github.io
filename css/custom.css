@@ -479,19 +479,27 @@ fieldset[disabled] .btn-esports-fan.active {
 
 /* tooltips */
 
-.btn-problem-solver + .tooltip > .tooltip-inner {
-  background-color: #39D179;
-}
-.btn-problem-solver + .tooltip > .tooltip-arrow {
-  border-top-color: #39D179;
-}
-
 .btn-software-developer + .tooltip > .tooltip-inner {
   background-color: #19B5FE;
 }
 .btn-software-developer + .tooltip > .tooltip-arrow {
   border-top-color: #19B5FE;
 }
+
+.btn-problem-solver + .tooltip > .tooltip-inner {
+  background-color: #39D179;
+}
+.btn-problem-solver + .tooltip > .tooltip-arrow {
+  border-bottom-color: #39D179;
+}
+
+.btn-creative-thinker + .tooltip > .tooltip-inner {
+  background-color: #F9690E;
+}
+.btn-creative-thinker + .tooltip > .tooltip-arrow {
+  border-top-color: #F9690E;
+}
+
 
 /*.btn-esports-fan + .tooltip > .tooltip-inner {
   background-color: #F1C40F;
