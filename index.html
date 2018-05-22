@@ -50,8 +50,8 @@
                 <li><a href="#about">about</a></li>
                 <li><a href="#projects">projects</a></li>
                 <li><a href="#now">now</a></li>
+                <li><a target="_blank" href="resume.pdf">resume</a></li>
                 <li><a href="#contact">contact</a></li>
-                <li><a href="http://matheus-manoel.github.io/resume.pdf">resume</a></li>
               </ul>
             </div>
           </div>
@@ -60,7 +60,7 @@
 
       <div id="about" class="slide">
         <p>I'm a Brazillian <button type="button" class="btn btn-software-developer btn-lg sharp" data-toggle="tooltip" title="Python, Javascript, React, Flask, MongoDB, Docker, C, Java, Ruby on Rails, HTML, CSS, Bootstrap, Git">software developer</button>, <button type="button" class="btn btn-problem-solver btn-lg sharp" data-toggle="tooltip" data-placement="bottom" title="Member of GEMA (Study Group for Competitive Programming). Won PET Challenge 2014 and attended the Brazillian regional of ACM-ICPC in 2014.">problem solver</button> and <button type="button" data-toggle="tooltip" title="UX/UI Designer" class="btn btn-creative-thinker btn-lg sharp">creative thinker</button>.</p>
-        <p>I also like <button type="button" class="btn btn-esports-fan btn-lg sharp">Hip Hop</button>.</p>
+        <p>I also make <a target="_blank" href="https://soundcloud.com/primitivo1917"><button type="button" class="btn btn-hip-hop btn-lg sharp" data-toggle="tooltip" data-placement="right" title="Check out my soundcloud!">Hip Hop</button></a>.</p>
       </div>
        </div>
 
@@ -202,7 +202,7 @@
           <li><a href="#projects">projects</a></li>
           <li><a href="#now">now</a></li>
           <li><a href="#contact">contact</a></li>
-          <li><a href="/resume.pdf">resume</a></li>
+          <li><a href="resume.pdf">resume</a></li>
         </ul>
       </nav>
     </footer>
@@ -215,7 +215,7 @@
   <script>
     $(document).ready(function(){
       // Add smooth scrolling to all links in navbar + footer link
-      $(".navbar a, footer a").on('click', function(event) {
+      $("a[href='#myPage'], a[href='#about'], a[href='#projects'], a[href='#now'], a[href='#contact']").on('click', function(event) {
 
       // Prevent default anchor click behavior
       event.preventDefault();
@@ -260,20 +260,20 @@
           }
        });
      });
-   </script>
+  </script>
 
-   <!-- Slide animation -->
-   <script>
-     $(window).scroll(function() {
-       $(".slideanim").each(function(){
-         var pos = $(this).offset().top;
+  <!-- Slide animation -->
+  <script>
+    $(window).scroll(function() {
+     $(".slideanim").each(function(){
+       var pos = $(this).offset().top;
 
-         var winTop = $(window).scrollTop();
-         if (pos < winTop + 600) {
-           $(this).addClass("slide");
-         }
-       });
+       var winTop = $(window).scrollTop();
+       if (pos < winTop + 600) {
+         $(this).addClass("slide");
+       }
      });
-   </script>
+    });
+  </script>
 
 </html>

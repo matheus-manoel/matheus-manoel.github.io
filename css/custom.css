@@ -242,50 +242,50 @@ fieldset[disabled] .btn-creative-thinker.active {
 
 /*---------------------------------*/
 
-/* esports fan button */
+/* hip-hop fan button */
 
-.btn-esports-fan {
+.btn-hip-hop {
   color: #FFFFFF;
   background-color: #F1C40F;
   border-color: #F1C40F;
 }
 
-.btn-esports-fan:hover,
-.btn-esports-fan:focus,
-.btn-esports-fan:active,
-.btn-esports-fan.active,
-.open .dropdown-toggle.btn-esports-fan {
+.btn-hip-hop:hover,
+.btn-hip-hop:focus,
+.btn-hip-hop:active,
+.btn-hip-hop.active,
+.open .dropdown-toggle.btn-hip-hop {
   color: #FFFFFF;
   background-color: #EDC111;
   border-color: #F1C40F;
 }
 
-.btn-esports-fan:active,
-.btn-esports-fan.active,
-.open .dropdown-toggle.btn-esports-fan {
+.btn-hip-hop:active,
+.btn-hip-hop.active,
+.open .dropdown-toggle.btn-hip-hop {
   background-image: none;
 }
 
-.btn-esports-fan.disabled,
-.btn-esports-fan[disabled],
-fieldset[disabled] .btn-esports-fan,
-.btn-esports-fan.disabled:hover,
-.btn-esports-fan[disabled]:hover,
-fieldset[disabled] .btn-esports-fan:hover,
-.btn-esports-fan.disabled:focus,
-.btn-esports-fan[disabled]:focus,
-fieldset[disabled] .btn-esports-fan:focus,
-.btn-esports-fan.disabled:active,
-.btn-esports-fan[disabled]:active,
-fieldset[disabled] .btn-esports-fan:active,
-.btn-esports-fan.disabled.active,
-.btn-esports-fan[disabled].active,
-fieldset[disabled] .btn-esports-fan.active {
+.btn-hip-hop.disabled,
+.btn-hip-hop[disabled],
+fieldset[disabled] .btn-hip-hop,
+.btn-hip-hop.disabled:hover,
+.btn-hip-hop[disabled]:hover,
+fieldset[disabled] .btn-hip-hop:hover,
+.btn-hip-hop.disabled:focus,
+.btn-hip-hop[disabled]:focus,
+fieldset[disabled] .btn-hip-hop:focus,
+.btn-hip-hop.disabled:active,
+.btn-hip-hop[disabled]:active,
+fieldset[disabled] .btn-hip-hop:active,
+.btn-hip-hop.disabled.active,
+.btn-hip-hop[disabled].active,
+fieldset[disabled] .btn-hip-hop.active {
   background-color: #F1C40F;
   border-color: #F1C40F;
 }
 
-.btn-esports-fan .badge {
+.btn-hip-hop .badge {
   color: #F1C40F;
   background-color: #FFFFFF;
 }
@@ -501,15 +501,12 @@ fieldset[disabled] .btn-esports-fan.active {
 }
 
 
-/*.btn-esports-fan + .tooltip > .tooltip-inner {
+.btn-hip-hop + .tooltip > .tooltip-inner {
   background-color: #F1C40F;
 }
-.btn-esports-fan + .tooltip > .tooltip-arrow {
-  border-top-color: #F1C40F;
+.btn-hip-hop + .tooltip > .tooltip-arrow {
+  border-right-color: #F1C40F;
 }
-
-.btn-esports-fan + .tooltip.right > .tooltip-arrow {background-color: #F1C40F;}
-*/
 
 
 /* -------------- */
