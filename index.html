@@ -43,7 +43,10 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#myPage"><b>matheus manoel</b></a>
+              <a class="navbar-brand" href="#myPage">
+                <img src="images/me.jpg" class="img-circle" alt="Me" id="me">
+                <b>matheus manoel</b>
+              </a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
               <ul class="nav navbar-nav navbar-right">
@@ -128,35 +131,6 @@
       </div>
     </div>
 
-    <!-- Now container fluid -->
-
-    <div class="container-fluid bg-gray" id="now">
-      <hr class="style-two"/>
-
-      <h1 class="section-title" align="center">now</h1>
-
-      <div class="row slideanim">
-        <div class="col-sm-4 col-xs-12 text-center">
-
-          <img src="images/me.jpg" class="img-circle" alt="Me" id="me">
-
-        </div>
-
-        <div class="col-sm-8 col-xs-12">
-          <br>
-          <p>I'm currently</p>
-          <ul>
-            <li>developing and mantaining an e-commerce in react.js and graphql;</li>
-            <li>organizing rap battles;</li>
-            <li>making music;</li>
-            <li>studying and playing chess;</li>
-          </ul>
-        </div>
-
-      </div>
-
-    </div>
-
     <!-- Contact container fluid -->
 
     <div class="container-fluid bg-gray" id="contact">
@@ -166,8 +140,8 @@
 
         <div class="row slideanim">
           <div class="col-sm-5">
-            <p>Contact me and I'll get back to you within 24 hours.</p>
-            <p><span class="glyphicon glyphicon-phone"></span> +15 99128-0344</p>
+            <p>Contact me and I'll get back to you as soon as possible.</p>
+            <p><span class="glyphicon glyphicon-phone"></span> +15 99115-3985</p>
             <p><span class="glyphicon glyphicon-envelope"></span> matheuscmanoel@gmail.com</p>
           </div>
           <div class="col-sm-7">
@@ -267,7 +241,7 @@
        var pos = $(this).offset().top;
 
        var winTop = $(window).scrollTop();
-       if (pos < winTop + 600) {
+       if (pos < winTop + 800) {
          $(this).addClass("slide");
        }
      });
